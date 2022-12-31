@@ -74,7 +74,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--font-regular);
+  font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   clor: var(--color-black);
   margin: 8px 0;
@@ -144,16 +144,16 @@ p {
 
 .hoem__title,
 .home__description {
-  color: var(--color-dark-pink);
+  color: var(--color-dark-grey);
 }
 
 .home__contact{
-  color: var(--color-green);
+  color: var(--color-dark-pink);
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
   margin: 24px;
   padding: 8px 12px;
-  border: 2px solid var(--color-green);
+  border: 2px solid var(--color-dark-pink);
   border-radius: var(--size-border-radius);
 }
 
@@ -371,4 +371,30 @@ p {
   margin-left: -12px;
   margin-top: 8px;
   background-color: var(--color-dark-white);
+}
+
+/* Contact */
+#contact {
+  background-color: var(--color-pink);
+}
+
+.contact__title,
+.contact__email, 
+.contact__rights {
+  color: var(--color-white);
+}
+
+.contact__title {
+  margin: 32px 0;
+}
+
+.contact__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+}
+
+.contact__links i:hover {
+  transform: scale(1.1);
+  color: var(--color-yellow);
+  transition: all var(--animation-duration) ease in;
 }
