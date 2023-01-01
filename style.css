@@ -16,6 +16,8 @@
   --color-black: #000000;
   --color-green: #d8c083;
   --color-baby-pink: #fbedeb;
+  --color-purple: #e9d1e5;
+  --color-dark-purple: #e5d3f7;
 
   /* Font size */
   --font-large: 48px;
@@ -76,7 +78,7 @@ h1 {
 h2 {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
-  clor: var(--color-black);
+  color: var(--color-black);
   margin: 8px 0;
 }
 
@@ -96,21 +98,28 @@ p {
 
 /* Navbar */
 #navbar {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-pink);
+  background-color: transparent;
   align-items: center;
-  color: var(--color-white);
   padding: 16px;
+  transition: all var(--animation-duration) ease-in-out;
+  color: var(--color-white);
+}
+
+#navbar.navbar--dark {
+  background-color: var(--color-dark-purple);
+  padding: 8px;
+}
+.navbar__logo {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
 }
 
 .navbar__menu {
   display: flex;
-}
-
-.navbar__logo {
-  font-size: var(--font-medium);
-  font-weight: var(--weight-semi-bold);
 }
 
 .navbar__menu__item {
@@ -141,6 +150,7 @@ p {
 #home {
   background: url('imgs/home-background.png') center/cover no-repeat;
   padding: 40px;
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -148,21 +158,20 @@ p {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 2px solid var(--color-light-white);
 }
 
-.hoem__title,
+.home__title,
 .home__description {
-  color: var(--color-dark-grey);
+  color: var(--color-black);
 }
 
 .home__contact{
-  color: var(--color-dark-pink);
+  background-color: var(--color-purple);
+  color: var(--color-white);
   font-size: var(--font-regular);
-  font-weight: var(--weight-bold);
+  font-weight: var(--weight-semi-bold);
   margin: 24px;
   padding: 8px 12px;
-  border: 2px solid var(--color-dark-pink);
   border-radius: var(--size-border-radius);
 }
 
@@ -384,7 +393,7 @@ p {
 
 /* Contact */
 #contact {
-  background-color: var(--color-pink);
+  background-color: var(--color-dark-purple);
 }
 
 .contact__title,
