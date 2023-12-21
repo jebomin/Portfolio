@@ -8,5 +8,5 @@
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
 
 ### 🔗 링크
-✅https://jebomin.github.io/Portfolio/ <br>
-✅https://www.notion.so/4dd682f686564d23904352e07d6fdee3?v=04417c46e03a4360aa0e52a7d6df850a&p=440d736b6ded4609bd815772ccce9450&pm=s
+✅개발 포트폴리오 사이트 : https://jebomin.github.io/Portfolio/ <br>
+✅디자인 포트폴리오 사이트 : https://www.notion.so/83580fec693345debc8c27d0d6488f9a
