@@ -63,7 +63,7 @@
     <section id="about" class="section section_container">
       <h1>About me</h1>
       <p>
-        기획, 프론트엔드, 백엔드 모든 분야에 도전하는 풀스택 꿈나무입니다.
+        편리하고 직관적인 UI를 제공하고자하는 풀스택 꿈나무입니다.
         <br />관심분야가 넓고 창의력이 좋아 다양한 아이디어 공모전에 나갔습니다.
         <br />대표 경험이 많아 책임감이 강하고 팀워크 능력이 훌륭합니다.
       </p>
@@ -77,10 +77,10 @@
         </div>
         <div class="major">
           <div class="major__icon">
-            <i class="fa-solid fa-pen-nib"></i>
+            <i class="fa-solid fa-mobile"></i>
           </div>
-          <h2 class="major__tilte">UI/UX</h2>
-          <div class="major__description">Figjam, Figma</div>
+          <h2 class="major__tilte">Mobile</h2>
+          <div class="major__description">Java, Android Studio</div>
         </div>
         <div class="major">
           <div class="major__icon">
@@ -88,7 +88,7 @@
           </div>
           <h2 class="major__tilte">Back-end</h2>
           <div class="major__description">
-            Java, Javascript, Nodejs, Rest APIs
+            Javascript, Nodejs, Rest APIs, Flask
           </div>
         </div>
       </div>
@@ -211,19 +211,22 @@
         <p>사진을 클릭하시면 프로젝트 세부내용을 볼 수 있습니다.</p>
         <div class="work__categories">
           <button class="category__btn selected" data-filter="*">
-            All<span class="category__count">9</span>
+            All<span class="category__count">10</span>
           </button>
           <button class="category__btn" data-filter="front-end">
             Front-end<span class="category__count">3</span>
           </button>
+          <button class="category__btn" data-filter="back-end">
+            Back-end<span class="category__count">1</span>
+          </button>
+          <button class="category__btn" data-filter="mobile">
+            Mobile<span class="category__count">1</span>
+          </button>
           <button class="category__btn" data-filter="idea">
             Idea<span class="category__count">3</span>
           </button>
-          <button class="category__btn" data-filter="back-end">
-            Back-end<span class="category__count">2</span>
-          </button>
-          <button class="category__btn" data-filter="ui/ux">
-            UI/UX<span class="category__count">1</span>
+          <button class="category__btn" data-filter="chatbot">
+            Chatbot<span class="category__count">2</span>
           </button>
         </div>
         <div class="work__projects">
@@ -240,7 +243,10 @@
             />
             <div class="project__description">
               <h3>포트폴리오</h3>
-              <span>HTML, CSS, JAVASCRIPT를 사용하여 제작</span>
+              <span
+                >HTML, CSS, JAVASCRIPT를<br />
+                사용하여 제작</span
+              >
             </div>
           </a>
           <a
@@ -256,7 +262,10 @@
             />
             <div class="project__description">
               <h3>여행 웹 사이트</h3>
-              <span>HTML, CSS, JAVASCRIPT를 사용해 클론코딩</span>
+              <span
+                >HTML, CSS, JAVASCRIPT를<br />
+                사용해 클론코딩</span
+              >
             </div>
           </a>
           <a
@@ -269,6 +278,35 @@
             <div class="project__description">
               <h3>코인거래소</h3>
               <span>HTML, CSS, JAVASCRIPT, Flask, mongoDB를 사용하여 제작</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/jebomin/nodejs_study"
+            class="project"
+            target="blank"
+            data-type="back-end"
+          >
+            <img src="imgs/projects/NODEJS.png"" alt="Node_js"
+            class="project__img" />
+            <div class="project__description">
+              <h3>Nodejs Study</h3>
+              <span>Nodejs, npm, <br />RestfulAPI, express 공부</span>
+            </div>
+          </a>
+          <a
+            href="https://github.com/jebomin/Mobilesoftware_TeamProject"
+            class="project"
+            target="blank"
+            data-type="mobile"
+          >
+            <img src="imgs/projects/FOOD.png"" alt="AI의류추천서비스"
+            class="project__img" />
+            <div class="project__description">
+              <h3>식단 관리 어플리케이션</h3>
+              <span
+                >Android Studio를 사용하여 <br />식단 관리 어플리케이션
+                제작</span
+              >
             </div>
           </a>
           <a
@@ -307,50 +345,39 @@
           >
             <img src="imgs/projects/CAR.png" alt="CAR" class="project__img" />
             <div class="project__description">
-              <h3>Present 자동차 산업 대학생 아이디어 공모전</h3>
+              <h3>Present 자동차 산업 <br />대학생 아이디어 공모전</h3>
               <span>전기차 화재 문제 개선 아이디어</span>
             </div>
           </a>
           <a
-            href="https://github.com/jebomin/nodejs_study"
+            href="https://github.com/jebomin/Chatbot"
             class="project"
             target="blank"
-            data-type="back-end"
+            data-type="chatbot"
           >
-            <img src="imgs/projects/NODEJS.png"" alt="Node_js"
-            class="project__img" />
+            <img src="imgs/projects/MIND.png" alt="Mind" class="project__img" />
             <div class="project__description">
-              <h3>Nodejs Study</h3>
-              <span>Nodejs, npm, RestfulAPI, express 공부</span>
-            </div>
-          </a>
-          <a
-            href="https://github.com/jebomin/DWITTER"
-            class="project"
-            target="blank"
-            data-type="back-end"
-          >
-            <img src="imgs/projects/DWITTER.jpg"" alt="DWITTER"
-            class="project__img" />
-            <div class="project__description">
-              <h3>DWITTER</h3>
+              <h3>심리 상담 챗봇</h3>
               <span
-                >HTML, CSS, Javascript, React, sql, mongoDB, Mongoose를 사용해
-                클론코딩</span
+                >Python, Stramlit, Pandas, <br />Sentence Transformers,
+                Scikitlearn을 사용하여 제작</span
               >
             </div>
           </a>
           <a
-            href="https://github.com/apg0001/AdotProject"
+            href="https://github.com/jebomin/RASA_music_chatbot"
             class="project"
             target="blank"
-            data-type="ui/ux"
+            data-type="chatbot"
           >
-            <img src="imgs/projects/CLOTH.png"" alt="AI의류추천서비스"
-            class="project__img" />
+            <img
+              src="imgs/projects/MUSIC.png"
+              alt="Mind"
+              class="project__img"
+            />
             <div class="project__description">
-              <h3>AI의류추천서비스</h3>
-              <span>Figma를 통해 AI의류추천서비스 어플 기획</span>
+              <h3>음악 추천 챗봇</h3>
+              <span>Python, RASA를 사용하여 제작</span>
             </div>
           </a>
         </div>

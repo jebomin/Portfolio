@@ -32,20 +32,19 @@
   --weight-regular: 400;
 
   /* Size */
-  --size-border-radius: 4px; 
+  --size-border-radius: 4px;
 
   /* Annimation */
-  --animation-duration : 300ms;
+  --animation-duration: 300ms;
 }
 
-  /* Universal tags */
-  * {
-    box-sizing: border-box;
-  }
-
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   cursor: default;
 }
@@ -133,7 +132,7 @@ p {
   border-radius: var(--size-border-radius);
 }
 
-.navbar__menu__item:hover{
+.navbar__menu__item:hover {
   border-color: color var(--color-white);
   background-color: var(--color-purple);
 }
@@ -149,7 +148,7 @@ p {
 
 /* Home */
 #home {
-  background: url('imgs/home-background.png') center/cover no-repeat;
+  background: url("imgs/home-background.png") center/cover no-repeat;
   padding: 40px;
   padding-top: 100px;
   text-align: center;
@@ -166,7 +165,7 @@ p {
   color: var(--color-black);
 }
 
-.home__contact{
+.home__contact {
   background-color: var(--color-purple);
   color: var(--color-white);
   font-size: var(--font-regular);
@@ -180,7 +179,7 @@ p {
 .section {
   padding: 50px;
   text-align: center;
-  margin: auto;/* 요소 검사로 margin이 옆에 들어간걸 알고 auto해서 해결 */
+  margin: auto; /* 요소 검사로 margin이 옆에 들어간걸 알고 auto해서 해결 */
 }
 
 .section_container {
@@ -213,8 +212,9 @@ p {
   color: var(--color-pink);
   transform: rotate(-30deg) scale(1.1);
 }
-.major__title, .major__description {
-  color : var(--color-dark-grey);
+.major__title,
+.major__description {
+  color: var(--color-dark-grey);
 }
 
 .major__description {
@@ -231,7 +231,8 @@ p {
   text-align: left;
 }
 
-.job__name, .job__period {
+.job__name,
+.job__period {
   color: var(--color-light-grey);
 }
 
@@ -302,7 +303,7 @@ p {
 }
 
 .category__btn {
-  border:1px solid var(--color-dark-white);
+  border: 1px solid var(--color-dark-white);
   border-radius: var(--size-border-radius);
   font-size: var(--font-regular);
   padding: 8px 48px;
@@ -393,7 +394,7 @@ p {
 }
 
 .project__description h3:after {
-  content: '';
+  content: "";
   display: block;
   position: relative;
   left: 50%;
@@ -410,7 +411,7 @@ p {
 }
 
 .contact__title,
-.contact__email, 
+.contact__email,
 .contact__rights {
   color: var(--color-white);
 }
@@ -454,12 +455,12 @@ p {
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
   :root {
-      /* Font size */
-  --font-large: 30px;
-  --font-medium: 18px;
-  --font-regular: 16px;
-  --font-small: 14px;
-  --font-micro: 12px; 
+    /* Font size */
+    --font-large: 30px;
+    --font-medium: 18px;
+    --font-regular: 16px;
+    --font-small: 14px;
+    --font-micro: 12px;
   }
 
   .navbar__toggle-btn {
